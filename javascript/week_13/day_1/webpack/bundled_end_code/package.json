@@ -1,0 +1,20 @@
+{
+  "name": "review_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "webpack": "cd client && webpack -w",
+    "test": "mocha client/src/models/specs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.0.0",
+    "webpack-cli": "^2.0.9"
+  }
+}
